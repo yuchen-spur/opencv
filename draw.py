@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 from time import strftime,localtime
 
-# create a black image
+# create a black image。
 img = np.zeros((512,512,3),np.uint8)
 
 # draw a diagonal blue line with thickness of 5 px
